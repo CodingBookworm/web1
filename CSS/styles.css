@@ -1,6 +1,8 @@
 img { 
     max-width: 100%;
 }
+
+/* font */
 body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -14,18 +16,22 @@ p {
     font-size: 1em;
 }
 h1, h2, h3 {
-    font-family: 'Encode Sans Condensed', sans-serif;
+    
     font-weight: bold;
 }
 h1 {
+    font-family: 'Rock Salt', cursive;
     font-size: 2.5em;
 }
 h2, h3 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
 }
 header {
-    background: red;
+    background-image: url("https://wallpapercave.com/wp/qsd85kc.jpg");
     color: #fff;
+    text-align: center;
+    margin: 0 0 0 10px;
 }
 header h1, header h2 {
     margin: 0 0 0 10px;
@@ -34,13 +40,13 @@ header h1, header h2 {
 nav {
     background: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 3px 0;
     margin: 10px 0 0 0;
     border-bottom: 1px solid red;
 }
 nav ul {
     list-style: none;
-    margin: 2.5%;
+    margin: 2%;
     padding: 0;
 }
 nav li {
@@ -126,4 +132,31 @@ li.social-icon a {
     padding: 10px;
     background: red;
     border-radius: 25%;
+}
+
+#portfolio ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+}
+#portfolio image {
+    
+}
+
+#portfolio li {
+    width: 45%;
+    margin: 2.5%
+    background: #484444;
+    float: left;
+}
+
+#portfolio p {
+    color: #fff;
+    padding: 5% 0 10% 0;
+}
+
+#portfolio li:nth-child(odd) {
+    clear:left;
 }
